@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import static org.hamcrest.Matchers.*;
 import static io.restassured.RestAssured.*;
-public class ApiTests {
+public class Task1 {
 
         private String authToken;
 
