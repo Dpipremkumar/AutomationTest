@@ -22,7 +22,7 @@ public class TransactionTests {
         Response response = given()
                 .contentType("application/json")
                 .body("{\"username\":\"" + username + "\", \"password\":\"1234\"}")
-                .post(BASE_URL + "/auth/login"); // ✅ corrected login endpoint
+                .post(BASE_URL + "/auth/login"); // corrected login endpoint
 
         System.out.println("Status Code: " + response.getStatusCode());
         System.out.println("Response Body: " + response.getBody().asString());
@@ -38,7 +38,7 @@ public class TransactionTests {
         Response response = given()
                 .contentType("application/json")
                 .body("{\"username\":\"" + username + "\", \"password\":\"1234\"}")
-                .post(BASE_URL + "/auth/login"); // ✅ corrected login endpoint
+                .post(BASE_URL + "/auth/login"); //  corrected login endpoint
 
         if (response.getStatusCode() != 200) {
             throw new RuntimeException("Login failed for user: " + username);
