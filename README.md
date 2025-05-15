@@ -8,6 +8,7 @@ Install the following tools:
   Docker,
   Docker Compose,
   Node.js
+  
 Start the application servers:
   Frontend,
   Backend,
