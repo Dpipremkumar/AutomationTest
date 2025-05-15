@@ -15,10 +15,12 @@ Start the application servers:
   Swagger UI
 
 Step 2: Set Up the Automation Testing Framework
+
 Install the following:
   IntelliJ IDEA,
   Java,
   Maven
+  
 Open IntelliJ IDEA and create a Maven project.
 
 Add necessary Maven dependencies such as:
